@@ -14,6 +14,7 @@ header{
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 100;
 } 
 
 #button button{
@@ -36,4 +37,32 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* width: 70%;
+    height: 100%; */
 }
+
+/* color box shoe */
+
+.shoe1{
+    background-color: red;
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+}
+
+
+.shoe2{
+    background-color: green;
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+}
+
+
+.shoe3{
+    background-color: yellow;
+    font-size: 50px;
+    text-align: center;
+    color: green;
+}
+
