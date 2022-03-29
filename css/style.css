@@ -5,3 +5,21 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* bottoni */
+header{
+    position: relative;
+}
+
+#button {
+    position: absolute;
+    top: 0;
+    right: 0;
+} 
+
+#button button{
+    background-color:rgb(245, 245, 245);
+    border-radius: 50%;
+    padding: 15px;
+    float: left;
+    margin: 30px 20px;
+}
