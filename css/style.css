@@ -45,7 +45,7 @@ header{
 
 .shoe1{
     background-color: red;
-    font-size: 50px;
+    font-size: 3.3vw;
     color: yellow;
     text-align: center;
 }
@@ -53,7 +53,7 @@ header{
 
 .shoe2{
     background-color: green;
-    font-size: 50px;
+    font-size: 3.3vw;
     color: yellow;
     text-align: center;
 }
@@ -61,8 +61,11 @@ header{
 
 .shoe3{
     background-color: yellow;
-    font-size: 50px;
+    font-size: 3.3vw;
     text-align: center;
     color: green;
 }
 
+img{
+    width: 100%;
+}
