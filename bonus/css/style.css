@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* bottoni */
+header{
+    position: relative;
+}
+
+#button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+} 
+
+#button button{
+    background-color:rgb(245, 245, 245);
+    border-radius: 50%;
+    padding: 15px;
+    float: left;
+    margin: 30px 20px;
+}
+
+/* blocchi scarpe */
+.box{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.position-article{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 70%;
+    height: 100%; */
+}
+
+/* color box shoe */
+
+.shoe1{
+    background-color: red;
+    font-size: 3.3vw;
+    color: yellow;
+    text-align: center;
+}
+
+
+.shoe2{
+    background-color: green;
+    font-size: 3.3vw;
+    color: yellow;
+    text-align: center;
+}
+
+
+.shoe3{
+    background-color: yellow;
+    font-size: 3.3vw;
+    text-align: center;
+    color: green;
+}
+
+img{
+    width: 100%;
+}
+
+/* bonus */
+button:hover{
+    cursor: pointer;
+}
+
+#button1:hover{
